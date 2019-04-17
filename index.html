@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TN PWA</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <script type="text/javascript" src="./scripts/jquery-3.3.1.js"></script>
+
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Template PWA">
+    <link rel="apple-touch-icon" href="./images/icons/icon-152x152.png">
+    <!-- Windows -->
+    <meta name="msapplication-TileImage" content="./images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#453526">
+
+    <link rel="icon" type="image/png" href="./images/icons/icon-144x144.png">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper blue darken-4">
+            <a href="#" class="brand-logo center">Template PWA</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Your message</span>
+                        <p>
+                            <div id="display">DISPLAY</div>
+                        </p>
+                    </div>
+                </div>
+                Enter your message
+                <input id="message" type="text" class="validate">
+                <button class="waves-effect waves-light btn-large" id="button" type="button" name="button">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="slider-block">
+        <div class="slider-item item-1 preload active">
+        </div>
+        <div class="slider-item item-2 preload">
+        </div>
+        <div class="slider-item item-3">
+        </div>
+        <div class="slider-item item-4">
+        </div>
+        <div class="slider-item item-5">
+        </div>
+    </div>
+    <div class="pagination-block">
+        <div class="pagination-item active">
+            1
+        </div>
+        <div class="pagination-item">
+            2
+        </div>
+        <div class="pagination-item">
+            3
+        </div>
+        <div class="pagination-item">
+            4
+        </div>
+    </div>
+    <div class="wrapper">
+        <!-- STEPS -->
+        <div class="step-block">
+            <!-- STEP 1 -->
+            <div class="step-item visible">
+                <div class="step-title">
+                    <h2>
+                        Kebanyakkan daripada wanita-wanita ini adalah ibu-ibu tunggal dan wanita-wanita yang sudah
+                        berkahwin yang nak berseronok. Mereka mungkin jiran-jiran anda atau seseorang yang anda kenali.
+                        Adakah anda bersetuju untuk merahsiakan identiti wanita-wanita ini?
+                    </h2>
+                </div>
+                <div class="buttons-block">
+                    <div class="step-btn tr-next-button tr-b-option">
+                        Ya
+                    </div>
+                    <div class="step-btn no-btn tr-next-button tr-b-option">
+                        Tidak
+                    </div>
+                </div>
+            </div>
+            <!-- END STEP 1 -->
+            <!-- STEP 2 -->
+            <div class="step-item">
+                <div class="step-title">
+                    <h2>
+                        Wanita-wanita ini telah meminta kami untuk tidak membenarkan lelaki-lelaki yang nak "menjalinkan
+                        hubungan". Mereka hanya nak hubungan intim. Bukan hubungan cinta. Adakah anda bersetuju dengan
+                        permintaan ini?
+                    </h2>
+                </div>
+                <div class="buttons-block">
+                    <div class="step-btn tr-next-button tr-b-option">
+                        Ya
+                    </div>
+                    <div class="step-btn no-btn tr-next-button tr-b-option">
+                        Tidak
+                    </div>
+                </div>
+            </div>
+            <!-- END STEP 2 -->
+            <!-- STEP 3 -->
+            <div class="step-item">
+                <div class="step-title">
+                    <h2>
+                        Adakah anda sekurang-kurangnya 24 tahun? Wanita-wanita di sini telah meminta untuk tidak
+                        membenarkan lelaki berumur di bawah 24 tahun untuk menghubungi mereka kerana terdapat lelaki
+                        muda yang telah menunjukkan sikap yang biadap.
+                    </h2>
+                </div>
+                <div class="buttons-block">
+                    <div class="step-btn tr-next-button tr-b-option">
+                        Ya
+                    </div>
+                    <div class="step-btn no-btn tr-next-button tr-b-option">
+                        Tidak
+                    </div>
+                </div>
+            </div>
+            <!-- END STEP 3 -->
+            <!-- STEP 4 -->
+            <div class="step-item load-step">
+                <div class="load-item">
+                    Kami sedang menilai jawapan-jawapan anda
+                </div>
+                <div class="load-item">
+                    Memeriksa pangkalan data kami untuk profil berpadanan
+                </div>
+                <div class="load-item">
+                    Padanan ditemui
+                </div>
+                <div class="load-item">
+                    Cuba cari slot pendaftaran yang kosong
+                </div>
+                <div class="loader">
+                </div>
+            </div>
+            <!-- END STEP 4 -->
+            <!-- STEP 5 -->
+            <div class="step-item">
+                <div class="rules-block">
+                    <div class="rules-title">
+                        <span>
+                            Tahniah!
+                        </span>
+                        Anda layak untuk halaman kami.
+                    </div>
+                    <ol>
+                        <li class="rules-item">
+                            Jika anda mengenali seseorang, JANGAN BERITAHU SESIAPA. Jangan menyebar cerita.
+                        </li>
+                        <li class="rules-item">
+                            Anda bertanggungjawab untuk melindungi diri anda daripada STD.
+                        </li>
+                        <li class="rules-item">
+                            Saling menghormati keinginan seks ahli lain.
+                        </li>
+                    </ol>
+                </div>
+                <div class="buttons-block">
+                    <a href="#" class="step-btn submit-btn tr-submit-button" id="agreeclick" data-id="agreeclick">
+                        Terima!
+                    </a>
+                </div>
+            </div>
+            <!-- END STEP 5 -->
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="./scripts/app.js"></script>
+</body>
+
+</html>
